@@ -1,0 +1,13 @@
+{
+  "name": "vercel-evasion",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "vercel deploy --prod",
+    "rotate": "vercel env rm REAL_CONTENT && vercel env add REAL_CONTENT"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
